@@ -5,5 +5,9 @@
 **/
 #include "threading.h"
 void funthreading(void){
-    int aa=10;
+    while(true){
+        cout<<"Hello world"<<endl;
+        __thread_id threadid=this_thread::get_id();   //在线程内部获取线程id
+        this_thread::sleep_for(chrono::microseconds(50));   //睡眠 50ms
+    }
 }
