@@ -1,0 +1,3 @@
+/Users/houlijia/Desktop/Project/MyCppApplication/cmake-build-debug/CMakeFiles/MyCppApplication.dir
+/Users/houlijia/Desktop/Project/MyCppApplication/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/houlijia/Desktop/Project/MyCppApplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
