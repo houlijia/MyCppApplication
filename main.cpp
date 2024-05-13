@@ -1,6 +1,8 @@
 #include <iostream>
+#include "thread/threading.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int aa=100;
+    funthreading();
     return 0;
 }
