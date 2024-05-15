@@ -19,7 +19,7 @@ vector<int> testvector(){
     vectstruct.reserve(3);
     vectstruct.emplace_back(1,2,3);
     vectstruct.emplace_back(4,5,6);
-    vectstruct.emplace_back(7,8,9);   //优化复制   将push_back改成emplace_back
+    vectstruct.emplace_back(7,8,9);   //优化复制过程，将push_back改成emplace_back
     //vectstruct.push_back({1,2,3});
 //    vectstruct.push_back({2,3,4});
 //    vectstruct.push_back({3,4,5});
