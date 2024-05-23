@@ -4,6 +4,7 @@
 #include "stl/stlvariables.h"
 #include "stackandhap/stackandhap.h"
 #include "testclass/testclass.h"
+#include "testlink/testlink.h"
 
 using namespace std;
 #include <iostream>
@@ -14,6 +15,7 @@ int main() {
     //teststlvar();
     testclass();
     stackandhap();
+    testlink();
 
     return 0;
 }
