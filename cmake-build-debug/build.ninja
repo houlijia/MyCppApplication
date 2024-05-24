@@ -79,6 +79,18 @@ build CMakeFiles/MyCppApplication.dir/testclass/testclass.cpp.o: CXX_COMPILER__M
   OBJECT_DIR = CMakeFiles/MyCppApplication.dir
   OBJECT_FILE_DIR = CMakeFiles/MyCppApplication.dir/testclass
 
+build CMakeFiles/MyCppApplication.dir/testlink/testlink.cpp.o: CXX_COMPILER__MyCppApplication_Debug /Users/houlijia/Desktop/Project/MyCppApplication/testlink/testlink.cpp || cmake_object_order_depends_target_MyCppApplication
+  DEP_FILE = CMakeFiles/MyCppApplication.dir/testlink/testlink.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/MyCppApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles/MyCppApplication.dir/testlink
+
+build CMakeFiles/MyCppApplication.dir/testpointer/testpointer.cpp.o: CXX_COMPILER__MyCppApplication_Debug /Users/houlijia/Desktop/Project/MyCppApplication/testpointer/testpointer.cpp || cmake_object_order_depends_target_MyCppApplication
+  DEP_FILE = CMakeFiles/MyCppApplication.dir/testpointer/testpointer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/MyCppApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles/MyCppApplication.dir/testpointer
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MyCppApplication
@@ -87,7 +99,7 @@ build CMakeFiles/MyCppApplication.dir/testclass/testclass.cpp.o: CXX_COMPILER__M
 #############################################
 # Link the executable MyCppApplication
 
-build MyCppApplication: CXX_EXECUTABLE_LINKER__MyCppApplication_Debug CMakeFiles/MyCppApplication.dir/main.cpp.o CMakeFiles/MyCppApplication.dir/thread/threading.cpp.o CMakeFiles/MyCppApplication.dir/stl/stlvariables.cpp.o CMakeFiles/MyCppApplication.dir/stackandhap/stackandhap.cpp.o CMakeFiles/MyCppApplication.dir/testclass/testclass.cpp.o
+build MyCppApplication: CXX_EXECUTABLE_LINKER__MyCppApplication_Debug CMakeFiles/MyCppApplication.dir/main.cpp.o CMakeFiles/MyCppApplication.dir/thread/threading.cpp.o CMakeFiles/MyCppApplication.dir/stl/stlvariables.cpp.o CMakeFiles/MyCppApplication.dir/stackandhap/stackandhap.cpp.o CMakeFiles/MyCppApplication.dir/testclass/testclass.cpp.o CMakeFiles/MyCppApplication.dir/testlink/testlink.cpp.o CMakeFiles/MyCppApplication.dir/testpointer/testpointer.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/MyCppApplication.dir
   POST_BUILD = :
