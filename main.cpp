@@ -12,12 +12,12 @@ using namespace std;
 void logg(const char* message);
 
 int main() {
-    //funthreading();
+    funthreading();
     //teststlvar();
-    testpointer();
-    testclass();
-    stackandhap();
-    testlink();
+    //testpointer();
+    //testclass();
+    //stackandhap();
+    //testlink();
 
     return 0;
 }
