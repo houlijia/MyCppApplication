@@ -6,6 +6,7 @@
 #include "testclass/testclass.h"
 #include "testlink/testlink.h"
 #include "testpointer/testpointer.h"
+#include "testvariables/testvariables.h"
 
 using namespace std;
 #include <iostream>
@@ -18,6 +19,7 @@ int main() {
     //testclass();
     //stackandhap();
     //testlink();
+    testvariables();
 
     return 0;
 }
