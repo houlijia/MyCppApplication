@@ -14,7 +14,7 @@ void logg(const char* message);
 
 int main() {
     funthreading();
-    //teststlvar();
+    teststlvar();
     //testpointer();
     //testclass();
     //stackandhap();
