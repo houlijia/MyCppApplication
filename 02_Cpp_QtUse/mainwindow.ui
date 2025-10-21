@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>600</width>
+                <height>700</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>文件传输工具</string>
+        </property>
+        <widget class="QWidget" name="centralWidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QGroupBox" name="uploadGroup">
+                        <property name="title">
+                            <string>文件上传</string>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_2">
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout">
+                                    <item>
+                                        <widget class="QLineEdit" name="uploadFileEdit">
+                                            <property name="placeholderText">
+                                                <string>选择要上传的文件...</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QPushButton" name="selectUploadFile">
+                                            <property name="text">
+                                                <string>选择文件</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <widget class="QLineEdit" name="serverUrlEdit">
+                                    <property name="placeholderText">
+                                        <string>输入服务器上传URL...</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QProgressBar" name="uploadProgress">
+                                    <property name="value">
+                                        <number>0</number>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="uploadButton">
+                                    <property name="text">
+                                        <string>开始上传</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QGroupBox" name="downloadGroup">
+                        <property name="title">
+                            <string>文件下载</string>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_3">
+                            <item>
+                                <widget class="QLineEdit" name="downloadUrlEdit">
+                                    <property name="placeholderText">
+                                        <string>输入文件下载URL...</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                                    <item>
+                                        <widget class="QLineEdit" name="downloadPathEdit">
+                                            <property name="placeholderText">
+                                                <string>选择下载目录...</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QPushButton" name="selectDownloadPath">
+                                            <property name="text">
+                                                <string>选择目录</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <widget class="QLineEdit" name="fileNameEdit">
+                                    <property name="placeholderText">
+                                        <string>输入保存的文件名...</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QProgressBar" name="downloadProgress">
+                                    <property name="value">
+                                        <number>0</number>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="downloadButton">
+                                    <property name="text">
+                                        <string>开始下载</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QGroupBox" name="convertGroup">
+                        <property name="title">
+                            <string>文件转换</string>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_4">
+                            <item>
+                                <widget class="QLabel" name="label">
+                                    <property name="text">
+                                        <string>选择要转换的文件并指定目标格式 (如: pdf, jpg, png 等)</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QLineEdit" name="convertFormatEdit">
+                                    <property name="placeholderText">
+                                        <string>输入目标格式...</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="convertButton">
+                                    <property name="text">
+                                        <string>开始转换</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QLabel" name="statusLabel">
+                        <property name="text">
+                            <string>就绪</string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
